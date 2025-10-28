@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Метро-Угадайка (MVP)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <h1>Метро-Угадайка</h1>
+        <p>Угадайте станцию метро по фотографии!</p>
+
+        <div id="image-container">
+            <img id="station-image" src="" alt="Загрузка станции...">
+        </div>
+
+        <div id="guess-form">
+            <label for="city-select">Город:</label>
+            <select id="city-select">
+                <option value="" disabled selected>Выберите город</option>
+            </select>
+
+            <label for="station-select">Станция:</label>
+            <select id="station-select" disabled>
+                <option value="" disabled selected>Сначала выберите город</option>
+            </select>
+
+            <button id="guess-button">Угадать!</button>
+        </div>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
