@@ -8,21 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: "Комсомольская (КЛ)", image: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Komsomolskaya-Koltsevaya_central_hall_2.jpg" },
             { name: "Маяковская", image: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Mayakovskaya_Moscow_Metro_2009-04-14.JPG" },
             { name: "Новослободская", image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Novoslobodskaya-1.jpg" }
-        ],
-        "Санкт-Петербург": [
-            { name: "Автово", image: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Avtovo_Metro_Station_St_Petersburg_2013_2.JPG" },
-            { name: "Кировский завод", image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Kirovsky_Zavod_station_hall_2.jpg" },
-            { name: "Пушкинская", image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pushkinskaya_SPB_Metro_2.jpg" }
-        ],
-        "Казань": [
-            { name: "Кремлёвская", image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kazan_metro_Kremlevskaya_station.jpg" },
-            { name: "Площадь Тукая", image: "https://upload.wikimedia.org/wikipedia/commons/5/59/Ploshchad_Tukaya_Kazan_metro.jpg" }
-        ],
-        "Екатеринбург": [
-            { name: "Площадь 1905 года", image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ploschad_1905_goda_Ekb_metro.jpg" }
-        ],
-        "Нижний Новгород": [
-            { name: "Московская", image: "https://upload.wikimedia.org/wikipedia/commons/7/72/Moskovskaya_Nizhny_Novgorod_Metro_station_hall.jpg" }
         ]
     };
 
